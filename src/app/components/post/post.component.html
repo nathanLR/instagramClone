@@ -1,0 +1,53 @@
+<div class="back">
+    <div class="wrapper">
+        <div class="back-container">
+            <a routerLink="/explore">retour</a>
+        </div>
+    </div>
+</div>
+
+<div class="post">
+    <div class="wrapper">
+        <div class="post-container">
+
+        
+            <div class="post__image">
+                <img src="{{post.image}}" alt="">
+            </div>
+            <div class="post__content">
+
+                <div class="content__head">
+                    <div class="profilPicture">
+                        <img src="{{post.userImage}}" alt="">
+                    </div>
+                    <div class="user">
+                        <p>@{{post.userName | uppercase}}</p>
+                    </div>
+                    <div class="location" *ngIf="post.location">
+                        <p>{{post.location | titlecase}}</p>
+                    </div>
+                </div>
+
+                <div class="content__description">
+                    <p>{{post.description}}</p>
+                </div>
+
+                <div class="content__meta">
+                    <div class="likes__container" [ngClass]="{'liked': isLiked==true}">
+                        <button (click)="likeButtonPressed()">{{isLiked ? 'liked' : 'like'}}</button>
+                        <p class="likesAmount">{{post.likesAmount}}</p>
+                    </div>
+                    <p class="date">Mis en ligne le {{post.datePosted | date : 'd MMMM YY'}} à {{post.datePosted | date : 'HH:mm'}}</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="delete">
+    <div class="wrapper">
+        <div class="delete-container">
+            <button (click)="deleteButtonPressed()">supprimer</button>
+        </div>
+    </div>
+</div>

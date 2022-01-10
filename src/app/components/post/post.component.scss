@@ -1,0 +1,124 @@
+.back{
+    margin: 25px 0;
+    &-container{
+        a{
+            background-color: #ccc;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+        }    
+
+    }
+}
+
+
+
+.post{
+    margin: 25px 0;
+    &-container{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    &__image{
+        flex-shrink: 1;
+    }
+    &__content{
+        flex-basis: 40%;
+        flex-shrink: 0;
+        border: 1px solid rgb(239,239,239);
+
+        display: flex;
+        flex-direction: column;
+
+        &>*{
+            padding: 10px;
+        }
+        &>:not(:first-child){
+            border-top: 1px solid rgb(239,239,239);
+        }
+    }
+
+    .content__head{
+        display: flex;
+        align-items: center;
+        .profilPicture{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            overflow: hidden;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .user{
+            margin-left: 25px;
+            font-weight: 500;
+        }
+        .location{
+            margin-left: 25px;
+            color: #ccc;
+        }
+    }
+    // .content__description{
+
+    // }
+    .content__meta{
+        display: flex;
+        justify-content: space-between;
+        margin-top: auto;
+        align-items: center;
+        .likes__container{
+            border: 1px solid #ccc;
+            display: flex;
+            width: fit-content;
+            align-items: center;
+            
+            button{
+                transition: all 0.2s ease;
+                cursor: pointer;
+            box-shadow: none;
+            background-color: rgb(239,239,239);
+            color: black;
+            text-transform: uppercase;
+            border: none;
+            display: block;
+            padding: 10px;
+            }
+            .likesAmount{
+                margin-left: 10px;
+                padding-right: 10px;
+            }
+        }
+        .liked{
+            button{
+                background-color: rgb(77, 174, 206);
+            color: white;
+            }
+            
+        }
+        .date{
+            color: #ccc;
+            font-size: 12px;
+        }
+
+    }
+}
+
+.delete{
+    margin: 25px 0;
+    &-container{
+        button{
+            border: none;
+            box-shadow: none;
+            color: white;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            background-color: rgb(255, 24, 24);
+        }
+    }
+}

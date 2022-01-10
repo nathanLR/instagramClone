@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id":1,
+      "userName": "nathan",
+      "eMail": "nathan.leroux3@gmail.com",
+      "password": "Nathandu13",
+      "postsLiked": [2,5,7]
+    },
+    {
+      "id":2,
+      "userName": "maman",
+      "eMail": "mjlf13@gmail.com",
+      "password": "Mamandu13",
+      "postsLiked": [3,4,5]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userName": "Djamel",
+      "image": "assets/chat.JPG",
+      "userImage": "assets/pp.PNG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus libero, vestibulum ac congue ac, maximus at nulla. Nam maximus sollicitudin quam consequat auctor.",
+      "datePosted": "",
+      "location": "France",
+      "likesAmount": 1
+    },
+    {
+      "id": 56,
+      "userName": "Ramzi",
+      "image": "assets/chat2.JPG",
+      "userImage": "assets/pp.PNG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus libero, vestibulum ac congue ac, maximus at nulla. Nam maximus sollicitudin quam consequat auctor.",
+      "datePosted": "",
+      "location": "France",
+      "likesAmount": 0
+    },
+    {
+      "id": 3,
+      "userName": "Henri",
+      "image": "assets/chat3.JPG",
+      "userImage": "assets/pp.PNG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus libero, vestibulum ac congue ac, maximus at nulla. Nam maximus sollicitudin quam consequat auctor.",
+      "datePosted": "",
+      "location": "France",
+      "likesAmount": 0
+    },
+    {
+      "id": 4,
+      "userName": "Samuel",
+      "image": "assets/chat4.JPG",
+      "userImage": "assets/pp.PNG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus libero, vestibulum ac congue ac, maximus at nulla. Nam maximus sollicitudin quam consequat auctor.",
+      "datePosted": "",
+      "location": "France",
+      "likesAmount": 0
+    },
+    {
+      "id": 5,
+      "userName": "Maman",
+      "image": "assets/chat5.JPG",
+      "userImage": "assets/pp.PNG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus libero, vestibulum ac congue ac, maximus at nulla. Nam maximus sollicitudin quam consequat auctor.",
+      "datePosted": "",
+      "location": "France",
+      "likesAmount": 1
+    },
+    {
+      "id": 6,
+      "userName": "Nathan",
+      "image": "assets/fleur.JPG",
+      "userImage": "assets/pp.PNG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus libero, vestibulum ac congue ac, maximus at nulla. Nam maximus sollicitudin quam consequat auctor.",
+      "datePosted": "",
+      "location": "France",
+      "likesAmount": 0
+    },
+    {
+      "id": 7,
+      "userName": "Léa",
+      "image": "assets/chat6.JPG",
+      "userImage": "assets/pp.PNG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus libero, vestibulum ac congue ac, maximus at nulla. Nam maximus sollicitudin quam consequat auctor.",
+      "datePosted": "",
+      "location": "France",
+      "likesAmount": 0
+    },
+    {
+      "id": 8,
+      "userName": "Denys",
+      "image": "assets/chat7.JPG",
+      "userImage": "assets/pp.PNG",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus libero, vestibulum ac congue ac, maximus at nulla. Nam maximus sollicitudin quam consequat auctor.",
+      "datePosted": "",
+      "location": "France",
+      "likesAmount": 10
+    },
+    {
+      "id": 12,
+      "userName": "Nathan",
+      "image": "P1000035.JPG",
+      "userImage": "assets/pp.PNG",
+      "description": "chaton beige",
+      "datePosted": "Wed Jan 05 2022 19:12:59 GMT+0100 (heure normale d’Europe centrale)",
+      "location": "Pont scorff",
+      "likesAmount": 1
+    }
+  ]
+}

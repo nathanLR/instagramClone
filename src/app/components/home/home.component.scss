@@ -1,0 +1,29 @@
+.home{
+    margin: 25px 0;
+    &-container{
+        text-align: center;
+        padding-top: 200px;
+        h1{
+            font-weight: 300;
+            font-size: 25px;
+            img{
+                display: inline-block;
+                position: relative;
+                top: 10px;
+            }
+        }
+        p{
+            width: fit-content;
+            margin: auto;
+            margin-top: 50px;
+            a{
+                text-decoration: none;
+                display: block;
+                background-color: #ccc;
+                padding: 10px 15px;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
